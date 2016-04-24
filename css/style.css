@@ -12,14 +12,14 @@ a,li {
 	display: none;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 766px) {
+@media only screen and (min-width: 320px) and (max-width: 766px) {
 
 /*Menu Dropdown*/
 .dropdown {
     position: absolute;
     display: inline-block;
-    right: 20px;
-    top: 20px;
+    right: 10px;
+    top: 5px;
 }
 .dropbtn {
     background-color: rgba(105,190,223, 0.7);
@@ -54,7 +54,7 @@ a,li {
 }
 #header {
 	width: 100%;
-	height: 100px;
+	height: 60px;
 	position: fixed;
 	top: 0;
 	background-color: #fff;
@@ -67,14 +67,14 @@ a,li {
 	margin: 0 auto;
 }
 #logo {
-	width: 200px;
-	height: 80px;
+	width: 170px;
+	height: 60px;
 	float: left;
 }
 #logo img {
 	width: 150px;
 	height: 30px;
-	margin-top: 30px;
+	margin-top: 15px;
 	margin-left: 20px;
 }
 #nav-bar, #nav-bar ul, #nav-bar li, #nav-bar a {
@@ -83,9 +83,9 @@ a,li {
 
 #banner {
 	width: 100%;
-	height: 320px;
+	height: 300px;
 	position: relative;
-	top: 100px;
+	top: 60px;
 	background-color: rgb(120,179,184);
 }
 
@@ -98,7 +98,7 @@ a,li {
 
 #banner figure img {
 	width: 300px;
-	height: 180px;
+	height: 160px;
 }
 
 /* slider */
@@ -117,11 +117,12 @@ section h2,p {
 #carousel {
 	margin: 2em auto;
 	width: 320px;
+	height: 300px;
 }
 
 #carousel-wrapper {
 	width: 280px;
-	height: 200px;
+	height: 300px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -253,6 +254,8 @@ div.box-size div.text p {
 	text-align: justify;
 	margin-top: 10px;
 	font-size: 13px;
+	width: 300px;
+	margin: 0 auto;
 }
 
 /* Section of commentary */
@@ -483,9 +486,9 @@ footer {
 
 #product-page {
 	position: relative;
-	top: 100px;
+	top: 60px;
 	width: 100%;
-	height: 800px;
+	height: 900px;
 	overflow: hidden;
 }
 .img-product {
@@ -493,7 +496,6 @@ footer {
 	height: 200px;
 	overflow: hidden;
 }
-
 .background-size {
 	position: absolute;
 	top: 0px;
@@ -501,37 +503,35 @@ footer {
 	width: 100%;
 	height: 200px;
 }
-
 .img-product img {
 	position: relative;
 	top: 0px;
 	width: 100%;
 	-webkit-animation-name: slide; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 10; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 8; /* Chrome, Safari, Opera */
     animation-name: slide;
-    animation-duration: 10s;
+    animation-duration: 8s;
      animation-iteration-count: infinite;
      animation-direction: alternate;
 }
-
 /* Chrome, Safari, Opera */
 @-webkit-keyframes slide {
     0%   {position: relative; top: 0px;}
-    100% {position: relative; top: -300px;}
-    100%   {position: relative; top: -300px;}
+    100% {position: relative; top: -60px;}
+    100%   {position: relative; top: -60px;}
     0% {position: relative; top: 0px;}
 }
 
 /* Standard syntax */
 @keyframes slide {
     0%   {position: relative; top: 0px;}
-    100% {position: relative; top: -300px;}
-    100%   {position: relative; top: -300px;}
+    100% {position: relative; top: -60px;}
+    100%   {position: relative; top: -60px;}
     0% {position: relative; top: 0px;}
 }
 #description-product {
-	width: 767px;
-	height: 200px;
+	width: 320px;
+	height: 300px;
 	position: relative;
 	margin: 0 auto;
 	top: 0;
@@ -544,29 +544,30 @@ footer {
 }
 #description-product p {
 	text-align: center;
-	margin-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
 	color: #777;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+
 }
 #coment-main {
-	width: 767px;
-	height: 120px;
+	width: 320px;
+	height: 150px;
 	margin: 0 auto;
 	margin-top: 20px;
 }
 
 #coment-main #envelop {
-	width: 700px;
-	height: 100px;
+	width: 320px;
+	height: 150px;
 	margin: 0 auto;
 }
 
 #coment-main .key {
-	width: 30px;
+	width: 35px;
 	height: auto;
 	float: left;
 }
@@ -576,7 +577,7 @@ footer {
 }
 #coment-main #text-main {
 	float: left;
-	width: 600px;
+	width: 250px;
 }
 #coment-main #text-main p {
 	padding-top: 5px;
@@ -584,41 +585,36 @@ footer {
 	font-weight: 400;
 	color: #777;
 }
-
 #profile-main {
-	width: 767px;
-	height: 150px;
+	width: 320px;
+	height: 230px;
 	margin: 0 auto;
 }
 #profile-main #photo-main {
 	width: 150px;
 	height: 150px;
-	margin-left: 50px;
-	float: left;
+	margin: 0 auto;
 }
-
 #profile-main #photo-main img {
 	width: 120px;
 	height: 120px;
-	padding-top: 30px;
-	float: right;
+	padding-top: 15px;
+	padding-left: 15px;
 }
-
 #person-name {
-	width: 300px;
-	height: 150px;
-	float: left;
+	width: 320px;
+	height: 80px;
+	margin: 0 auto;
 }
 #person-name p {
 	line-height: 20px;
-	margin:0px;
-	padding-top: 120px;
-	text-align: left;
 	font-family: 'Ubuntu';
 	font-weight: 500;
 	font-style: italic;
 	color: #85c7e1;
 	font-size: 14px;
+	margin:0px;
+	text-align: left;
 }
 
 /* Módulo Análise */
@@ -631,7 +627,7 @@ footer {
 	top: 100px;
 }
 #mod-analise #section-mod {
-	width: 767px;
+	width: 320px;
 	height: 500px;
 	margin: 0 auto;
 }
@@ -643,23 +639,23 @@ footer {
 	color: #85c7e1;
 }
 #mod-analise #section-mod #menu-list {
-	width: 767px;
+	width: 320px;
 	height: 50px;
 	margin-top: 50px;
 }
 #menu-list ul {
-	width: 767px;
+	width: 160px;
 	height: 50px;
+	float: left;
 	padding: 0;
 }
 #menu-list ul li {
-	padding-right:25px; 
+	padding-left:25px; 
 	float: left;
 	font-size: 14px;
 	cursor: pointer;
 }
 #menu-list ul li#bot-evolucao {
-	padding-left: 10px;
 }
 #menu-list ul li a:hover {
 	border-bottom: 2px solid #85c7e1;	
