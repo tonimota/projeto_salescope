@@ -517,16 +517,16 @@ footer {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes slide {
     0%   {position: relative; top: 0px;}
-    100% {position: relative; top: -60px;}
-    100%   {position: relative; top: -60px;}
+    100% {position: relative; top: -40px;}
+    100%   {position: relative; top: -40px;}
     0% {position: relative; top: 0px;}
 }
 
 /* Standard syntax */
 @keyframes slide {
     0%   {position: relative; top: 0px;}
-    100% {position: relative; top: -60px;}
-    100%   {position: relative; top: -60px;}
+    100% {position: relative; top: -40px;}
+    100%   {position: relative; top: -40px;}
     0% {position: relative; top: 0px;}
 }
 #description-product {
@@ -621,14 +621,14 @@ footer {
 
 #mod-analise {
 	width: 100%;
-	height: 500px;
+	height: 750px;
 	background-color: rgba(231,231,231,0.3);
 	position: relative;
 	top: 100px;
 }
 #mod-analise #section-mod {
 	width: 320px;
-	height: 500px;
+	height: 750px;
 	margin: 0 auto;
 }
 #mod-analise #section-mod h2 {
@@ -641,7 +641,7 @@ footer {
 #mod-analise #section-mod #menu-list {
 	width: 320px;
 	height: 50px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 #menu-list ul {
 	width: 160px;
@@ -655,44 +655,40 @@ footer {
 	font-size: 14px;
 	cursor: pointer;
 }
-#menu-list ul li#bot-evolucao {
-}
 #menu-list ul li a:hover {
 	border-bottom: 2px solid #85c7e1;	
 }
 .item-list-mod {
-	width: 767px;
-	height: 400px;
+	width: 320px;
+	height: 750px;
 }
 .item-list-mod .item-mod {
-	width: 767px;
-	height: 400px;
+	width: 320px;
+	height: 500px;
 	display: block;
 	overflow: hidden;
 }
 .item-mod .img-mod {
-	width: 420px;
-	height: 300px;
-	float: left;
+	width: 320px;
+	height: 250px;
 }
 .item-mod .img-mod img {
 	margin-top: 20px;
-	width: 420px;
-	height: 280px;
+	width: 320px;
+	height: 210px;
 }
 .item-mod .text-mod {
-	width: 346px;
-	height: 400px;
-	float: left;
+	width: 320px;
+	height: 150px;
 }
 .item-mod .text-mod p:nth-child(1) {
-	width: 346px;
+	width: 310px;
 	margin: 0 auto;
-	margin-top: 60px;
+	margin-top: 20px;
 	font-weight: 600;
 }
 .item-mod .text-mod p + p {
-	width: 346px;
+	width: 310px;
 	margin: 0 auto;
 	margin-top: 20px;
 	text-align: justify;
@@ -703,13 +699,13 @@ footer {
 
 #mod-map {
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	background-color: #fff;
 	position: relative;
 	top: 100px;
 }
 #mod-map #section-mod2 {
-	width: 767px;
+	width: 320px;
 	height: 600px;
 	margin: 0 auto;
 }
@@ -721,14 +717,15 @@ footer {
 	color: #85c7e1;
 }
 #mod-map #section-mod2 #menu-list2 {
-	width: 767px;
+	width: 320px;
 	height: 50px;
 	margin-top: 50px;
 }
 #menu-list2 ul {
-	width: 767px;
+	width: 300px;
 	height: 50px;
 	padding: 0;
+	margin: 0 auto;
 }
 #menu-list2 ul li {
 	padding-right:25px; 
@@ -736,12 +733,14 @@ footer {
 }
 
 .item-mod .text-mod p.reset {
-	margin-left: 0;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
 } 
 
 #vantagens-icons {
 	width: 100%;
-	height: 420px;
+	height: 470px;
 	position: relative;
 	top: 100px;
 	background-color: rgba(231,231,231,0.3);
@@ -750,8 +749,8 @@ footer {
     transition: height 2s;
 }
 #thumbnail-icons {
-	width: 767px;
-	height: 400px;
+	width: 320px;
+	height: 450px;
 	margin: 0 auto;
 	padding-top: 20px;
 	position: relative;
@@ -759,8 +758,8 @@ footer {
     transition: height 2s;
 }
 #thumbnail-icons .thumb {
-	width: 500px;
-	height: 400px;
+	width: 320px;
+	height: 410px;
 	margin: 0 auto;
 }
 #thumbnail-icons .thumb .icon-thumb {
@@ -779,7 +778,7 @@ footer {
 }
 
 #thumbnail-icons .thumb .text-thumb {
-	width: 480px;
+	width: 320px;
 	height: 235px;
 	margin: 0 auto;
 }
@@ -816,8 +815,8 @@ footer {
 	height: 60px;
 	float: left;
 	position: absolute;
-	right: 308px;
 	bottom: 20px;
+	left: 85px;
 }
 #more-view button {
 	width: 50px;
@@ -884,16 +883,15 @@ footer {
 }
 
 #down-content {
-	width: 767px;
+	width: 320px;
 	height: 200px;
 	margin: 0 auto;
 }
 
 #down-content #text-down {
-	width: 550px;
+	width: 320px;
 	height: 100px;
-	padding-top: 50px;
-	float: left;
+	padding-top: 10px;
 }
 
 #down-content #text-down h3 {
@@ -901,9 +899,11 @@ footer {
 	font-size: 22px;
 	color: #797979;
 	margin-bottom: 5px;
+	width: 320px;
+	text-align: center;
 }
 #down-content #text-down p {
-	text-align: left;
+	text-align: center;
 	font-weight: 300;
 	font-size: 16px;
 	margin-top: 0px;
@@ -911,14 +911,14 @@ footer {
 
 #down-content #button-down {
 	width: 200px;
-	height: 200px;
-	float: right;
+	height: 100px;
+	margin: 0 auto;
 }
 #button-down button {
 	width: 150px;
 	height: 50px;
-	float: right;
-	margin-top: 80px;
+	margin-left: 25px;
+	margin-top: 25px;
 	background-color: rgba(105,190,223, 0.7);
 	border: 1px solid #e7e7e7;
 	text-transform: uppercase;
@@ -930,30 +930,28 @@ footer {
 	outline: 0;
     opacity: 1;
 	-webkit-transition: opacity 0.5s, box-shadow 0.5s; /* Safari */
-
 }
 #button-down button:hover {
 	opacity: 0.85;
 	box-shadow: 5px 5px 5px #e7e7e7;
-
 }
 /* Seção Fale Conosco */
 
 #talk {
 	width: 100%;
-	height: 150px;
+	height: 250px;
 	background-color: #f7f6f6;
 	position: relative;
 	top: 100px;
 }
 #fale-conosco {
-	width: 767px;
+	width: 320px;
 	height: 70px;
 	margin: 0 auto;
 	padding-top: 40px;
 }
 #fale-conosco #box-contact {
-	width: 500px;
+	width: 320px;
 	height: 100px;
 	margin: 0 auto;
 }
@@ -964,8 +962,8 @@ footer {
 #fale-conosco #phone {
 	width: 250px;
 	height: 50px;
+	margin: 0 auto;
 	margin-top: 10px;
-	float: left;
 }
 #fale-conosco #phone img {
 	width: 20px;
@@ -976,6 +974,7 @@ footer {
 	margin: 0;
 	text-align: left;
 	padding-left: 30px;
+	width: 200px;
 }
 #fale-conosco em {
 	font-weight: 600;
@@ -983,9 +982,9 @@ footer {
 	text-align: right;
 }
 #fale-conosco #envelop {
-	width: 250px;
+	width: 210px;
 	height: 50px;
-	float: left;
+	margin:0 auto;
 	margin-top: 10px;
 }
 #fale-conosco #envelop img {
@@ -997,6 +996,7 @@ footer {
 	text-align: left;
 	margin: 0;
 	padding-left: 30px;
+	width: 190px;
 }
 #fale-conosco #envelop p a:hover {
 	text-decoration: underline;
@@ -1006,24 +1006,23 @@ footer {
 
 section#client {
 	position: relative;
-	top: 100px;
+	top: 40px;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 }
-
 #brands {
 	width: 100%;
-	height: 1300px;
+	height: 1600px;
 	position: relative;
-	top: 100px;
+	top: 40px;
 }
 #brands #faixa {
 	width: 100%;
-	height: 70px;
+	height: 100px;
 	background-color: #e7e7e7;
 }
 #brands #faixa h3 {
-	width: 767px;
+	width: 320px;
 	height: 30px;
 	margin: 0 auto;
 	text-align: center;
@@ -1037,23 +1036,23 @@ section#client {
 	margin: 0;
 }
 #brands-icons {
-	width: 767px;
+	width: 320px;
 	height: 800px;
 	margin: 0 auto;
 	margin-top: 50px;
 }
 
 #brands-icons ul {
-	width: 767px;
-	max-width: 767px;
+	width: 320px;
+	max-width: 320px;
 	height: 900px;
 	padding: 0px;
 	margin: 0;
 }
 
 #brands-icons ul li {
-	width: 225px;
-	height: 250px;
+	width: 140px;
+	height: 210px;
 	float: left;
 	margin: 10px;
 	outline: 1px solid #e7e7e7;
@@ -1074,12 +1073,10 @@ section#client {
 */
 
 #brands-icons ul li img {
-	width: 200px;
-	height: 120px;
+	width: 130px;
+	height: 80px;
 	margin-top: 0;
-	margin-left: 12.5px;
 }
-
 #brands-icons ul li span {
 	display: block;
 	margin: 0 auto;
@@ -1087,10 +1084,8 @@ section#client {
 	text-align: center;
 	font-weight: bold;
 	font-size: 14px;
-	width: 195px;
-
+	width: 130px;
 }
-
 #brands-icons ul li span:last-child {
 	margin-top: 0px;
 	font-weight: 300;
@@ -1101,24 +1096,26 @@ section#client {
 
 #bg-contact-img {
 	position: relative;
-	top: 100px;
+	top: 60px;
 	width: 100%;
 	height: 200px;
 }
-
 #contato {
 	width: 100%;
-	height: 1200px;
+	height: 1500px;
 	position: relative;
-	top: 100px;
+	top: 60px;
 	background-color: #fff;
 }
 #box-contato {
-	width: 767px;
+	width: 320px;
 	height: 1200px;
 	margin: 0 auto;
 }
-
+#box-contato p {
+	width: 310px;
+	margin: 0 auto;
+}
 #box-contato > p {
 	font-size: 20px;
 	font-weight: bold;
@@ -1146,17 +1143,16 @@ section#client {
 	border: 0;
 }
 form {
-	width: 767px;
-	height: 430px;
+	width: 320x;
+	height: 900px;
 	margin: 0;
 	padding: 0;
 }
 form:focus {
 	outline: none;
 }
-
 form input {
-	width: 400px;
+	width: 280px;
     height: 38px;
     border: 1px solid #d8dfe9;
     border-radius: 3px;
@@ -1164,19 +1160,19 @@ form input {
     margin-bottom: 20px;
 }
 .contact_form ul {
-    width: 767px;
+    width: 320px;
     height: 450px;
     list-style-type:none;
     list-style-position:outside;
-    margin:0px;
+    margin:0 auto;
     padding:0px;
 }
 .contact_form li{
     position:relative;
-    width: 340px;
+    width: 310px;
     height: 100px;
     float: left;
-    margin-right: 40px;
+    margin: 0 auto;
 }
 .contact_form li .icon-form {
 	width: 45px;
@@ -1194,7 +1190,7 @@ form input {
 	margin-left: 15px;
 }
 .contact_form #textarea {
-	width: 720px;
+	width: 310px;
 	height: 100px;
 	margin-bottom: 30px;
 }
@@ -1214,7 +1210,7 @@ form input {
 	margin-left: 15px;
 }
 .contact_form #textarea textarea {
-	width: 675px;
+	width: 260px;
 	height: 100px;
 	float: left;
 }
@@ -1226,7 +1222,7 @@ form input {
 }
 .contact_form input, .contact_form textarea {
     height:40px; 
-    width:290px; 
+    width:260px; 
     padding:5px 8px;
     margin-bottom: 5px;
     text-align: left;
@@ -1268,12 +1264,11 @@ form input {
 .contact_form button {margin-left:156px;}
 
 li#button-contact-form {
-	width: 767px;
+	width: 320px;
 	height: 150px;
 }
 li#button-contact-form input[type=checkbox] {
 	margin-top: 15px;
-   	margin-left: 10px;
    	border-radius:0px;
 	background-color:#fff;
 	color:black;
@@ -1286,16 +1281,14 @@ li#button-contact-form input[type=checkbox]:checked{
 	color:#999;
 }
 li#button-contact-form p {
-	width: 700px;
+	width: 320px;
 	height: 40px;
 	float: left;
 	margin-top: 13px;
-	margin-left: 10px;
 	text-align: justify;
 }
-
 button.submit {
-    width: 512px;
+    width: 320px;
     height: 50px;
     background-color: rgba(105,190,223, 0.7);
     border: 1px solid #e7e7e7;
@@ -1314,22 +1307,20 @@ button.submit:hover {
 button.submit:active {
     border: 1px solid #fff;
     outline: 0;
-     
 }
 #box-contato #local {
-	width: 767px;
+	width: 320px;
 	height: 300px;
 	clear: both;
 }
-
 #box-contato #local h5 {
-	width: 380px;
+	width: 160px;
 	height: 20px;
 	float: left;
 }
 #box-contato #local ul {
 	padding: 0;
-	width: 380px;
+	width: 160px;
 	float: left;
 }
 #box-contato #local ul li {
@@ -1345,9 +1336,10 @@ button.submit:active {
 #box-contato #local ul li p {
 	margin: 0;
 	float: left;
-	width: 300px;
+	width: 110px;
 	text-align: left;
 	color: #666;
+	font-size: 0.9em;
 }
 #box-contato #local ul li p span{
 	line-height: 20px;
@@ -1355,19 +1347,20 @@ button.submit:active {
 	color: #666;
 }
 #box-contato #local ul li i {
-	padding-right: 20px;
+	padding-right: 5px;
 	float: left;
 	width: 30px;
 }
 #box-contato #local #social-media-contact li {
 	float: left;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	border-radius: 50%;
 	border: 1px solid #e7e7e7;
 	line-height: 50px;
-	margin-right: 20px;
+	margin-right: 5px;
 	padding-bottom: 0px;
+	cursor: pointer;
 }
 #box-contato #local #social-media-contact li:nth-child(1):hover {
 	background-color: rgba(062,092,154, 1);
@@ -1382,19 +1375,19 @@ button.submit:active {
 	color: #fff;
 }
 #social-media-contact li i {
-	line-height: 50px;
+	line-height: 40px;
 	width: 20px;
-	margin-left: 17px;
+	margin-left: 13px;
 	padding: 0px !important;
 }
 #social-media-contact li:nth-child(1) i {
-	margin-left: 20px;
+	margin-left: 15px;
 }
 #bg-contact {
 	width: 100%;
-	height: 350px;
+	height: 300px;
 	position: relative;
-	top: 100px;
+	top: 60px;
 }
 
 /* Página de Download */
@@ -1403,17 +1396,17 @@ button.submit:active {
 	position: relative;
 	top: 100px;
 	width: 100%;
-	height: 850px;
+	height: 600px;
 	background-color: #fff;
 }
 #page-download #enveloped-down {
-	width: 767px;
-	height: 850px;
+	width: 320px;
+	height: 600px;
 	margin:0 auto;
 }
 #image-background  {
-	width: 400px;
-	height: 400px;
+	width: 320px;
+	height: 300px;
 	margin: 0 auto;
 	margin-top: 50px;
 	background-color: #f7f6f6;
@@ -1422,35 +1415,35 @@ button.submit:active {
 #image-background img {
 	width: 250px;
 	height: 160px;
-	margin-left: 70px;
-	margin-top: 120px;
+	margin-left: 30px;
+	margin-top: 70px;
 }
 #enveloped-down #text-button {
-	width: 500px;
-	height: 400px;
+	width: 320px;
+	height: 300px;
 	margin: 0 auto;
 }
-
 #enveloped-down #desciption-down {
-	width: 400px;
-	height: 200px;
-	padding: 50px;
+	width: 300px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 15px;
 	padding-bottom: 20px;
 }
 #enveloped-down #desciption-down p {
 	text-align: justify;
 	font-weight: 300;
-	color: #777;
+	color: #333;
 	font-size: 14px;
 }
 #button-page-down {
 	width: 150px;
-	height: 100px;
+	height: 50px;
 	margin: 0 auto;
 }
 #button-down-off {
 	width: 150px;
-	height: 100px;
+	height: 50px;
 }
 #button-page-down #button-down-off button {
 	width: 150px;
@@ -1469,21 +1462,10 @@ button.submit:active {
 	opacity: 0.85;
 	box-shadow: 5px 5px 5px #e7e7e7
 }
-
 #button-down-off button:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
-#text-button > p {
-	text-align: center;
-	font-size: 14px;
-	font-weight: 300;
-	color: red;
-	margin: 0;
-	font-style: italic;
-}
-
-
 }
 
 /* Media Query for Tablet */
@@ -2095,14 +2077,14 @@ footer {
 
 #mod-analise {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	background-color: rgba(231,231,231,0.3);
 	position: relative;
 	top: 100px;
 }
 #mod-analise #section-mod {
 	width: 767px;
-	height: 500px;
+	height: 600px;
 	margin: 0 auto;
 }
 #mod-analise #section-mod h2 {
@@ -2118,12 +2100,13 @@ footer {
 	margin-top: 50px;
 }
 #menu-list ul {
-	width: 767px;
+	width: 383px;
 	height: 50px;
 	padding: 0;
+	float: left;
 }
 #menu-list ul li {
-	padding-right:25px; 
+	padding-right:20px; 
 	float: left;
 	font-size: 14px;
 	cursor: pointer;
@@ -2914,7 +2897,7 @@ button.submit:active {
 #enveloped-down #desciption-down p {
 	text-align: justify;
 	font-weight: 300;
-	color: #777;
+	color: #333;
 	font-size: 14px;
 }
 #button-page-down {
@@ -3583,12 +3566,16 @@ footer {
 #mod-analise #section-mod #menu-list {
 	width: 1024px;
 	height: 50px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 #menu-list ul {
-	width: 1024px;
+	width: 400px;
 	height: 50px;
 	padding: 0;
+	float: left;
+}
+#menu-list ul:nth-child(1){
+	padding-left: 150px;
 }
 #menu-list ul li {
 	padding-right:25px; 
@@ -3904,7 +3891,7 @@ footer {
 #enveloped-down #desciption-down p {
 	text-align: justify;
 	font-weight: 300;
-	color: #777;
+	color: #333;
 	font-size: 14px;
 }
 #button-page-down {
